@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h2 , section h3 , form button, #about {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+} 
+
+header  {
+    font-family: 'Miltonian Tattoo', cursive;
+    padding: 50px 0;
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+header li a{
+    color: rgba(238, 10, 219, 0.774);
+    text-decoration: none;
+}
+
+header h1 , textarea , input {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 42px;
+    font-size: 20px;
+}
+
+header .container , section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mural {
+    color: aliceblue;
+    float: left;
+    font-size: 30px;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+
+
+section h1 {
+    padding-top: 150px;
+}
+
+section  {
+    padding-left: 80px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+section iframe {
+    padding-top: 85px;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brands-list img {
+    height: 35px;
+    margin-top: 50px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 20px ;
+}
+
+#sobre {
+    background-color:rgba(238, 10, 219, 0.774);
+}
+
+#about {
+    margin-top: 20px;
+}
+
+#about h2 {
+    font-weight: bolder;
+}
+
+
+section p {
+    margin-bottom: 8px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+
+.store-front {
+    margin-right: 32px;
+    width: 320px;
+}
+
+#art img {
+    margin-bottom: 100px;
+}
+
+form input , form textarea , form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+} 
+
+form button {
+    background-color: rgba(112, 45, 107, 0.774);
+    color: #ecf1ff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(238, 10, 219, 0.774);
+}
+
+input:focus , textarea:focus {
+    outline-color: rgb(233, 121, 248);
+}
+
+#contact {
+    background-color: rgba(238, 10, 219, 0.774);
+}
+
+.contact-methods {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#contact , .container {
+    display: block;
+}
+
+#link-contato {
+    padding-left: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color:  #4f0057;
+    color: #ecf1ff;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+
+
+
+
